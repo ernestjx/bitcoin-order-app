@@ -67,3 +67,6 @@ jobs:
       - name: Deploy
         run: |
           npm run deploy
+      - name: Audit 
+        run: |
+          npm audit fix
